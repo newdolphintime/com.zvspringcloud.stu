@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/com.zvstu.spring/com.zvstu.spring.iml" filepath="$PROJECT_DIR$/com.zvstu.spring/com.zvstu.spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.zvstu.spring/consumer-demo/consumer-demo.iml" filepath="$PROJECT_DIR$/com.zvstu.spring/consumer-demo/consumer-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.zvstu.spring/user-service/user-service.iml" filepath="$PROJECT_DIR$/com.zvstu.spring/user-service/user-service.iml" />
+    </modules>
+  </component>
+</project>

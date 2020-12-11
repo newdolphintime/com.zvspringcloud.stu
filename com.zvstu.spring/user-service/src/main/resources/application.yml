@@ -1,0 +1,10 @@
+server:
+  port: 9091
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/SpringCloud
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: zhangwei
+mybatis:
+  type-aliases-package: com.stuspcloud.user.pojo
