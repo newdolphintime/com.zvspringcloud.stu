@@ -1,19 +1,22 @@
 package com.stuspcloud.user.pojo;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.Date;
 
 @Data
+
 public class User{
     // id
 
     //开启主键自动回填
 
-    private Long id;
+    public Long id;
 
     // 用户名
-    private String userName;
+    public String userName;
 
     // 密码
     private String password;
