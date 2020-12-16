@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/com.zvstu.spring/com.zvstu.spring.iml" filepath="$PROJECT_DIR$/com.zvstu.spring/com.zvstu.spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.zvstu.spring/config-server/config-server.iml" filepath="$PROJECT_DIR$/com.zvstu.spring/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.zvstu.spring/consumer-demo/consumer-demo.iml" filepath="$PROJECT_DIR$/com.zvstu.spring/consumer-demo/consumer-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.zvstu.spring/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/com.zvstu.spring/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.zvstu.spring/spcloud-gateway/spcloud-gateway.iml" filepath="$PROJECT_DIR$/com.zvstu.spring/spcloud-gateway/spcloud-gateway.iml" />

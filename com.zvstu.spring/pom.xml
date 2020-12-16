@@ -13,6 +13,7 @@
         <module>consumer-demo</module>
         <module>eureka-server</module>
         <module>spcloud-gateway</module>
+        <module>config-server</module>
     </modules>
 
     <repositories>

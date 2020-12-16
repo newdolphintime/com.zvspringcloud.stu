@@ -1,0 +1,28 @@
+spring:
+  cloud:
+    config:
+      name: user
+      profile: dev
+      label: master
+      discovery:
+        enabled: true
+        service-id: config-server
+  rabbitmq:
+    host: 10.211.55.4
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+
+#bootstrap.yml文件也是Spring Boot的默认配置文件，而且其加载的时间相比于application.yml更早。
+#  application.yml和bootstrap.yml虽然都是Spring Boot的默认配置文件，但是定位却不相同。
+#  bootstrap.yml 可以理解成系统级别的一些参数配置，这些参数一般是不会变动的。
+#  application.yml 可以用来定义应用级别的 参数，如果搭配 spring cloud config 使用，
+#  application.yml 里面定义的文件可以实现动态替换。
+#  总结就是，bootstrap.yml文件相当于项目启动时的引导文件，内容相对固定。
+#  application.yml文件是微服务 的一些常规配置参数，变化比较频繁。
